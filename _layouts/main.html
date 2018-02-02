@@ -23,7 +23,7 @@
   <main id="hc-main">
 
     <header>
-      <nav id="hc-nav" is="hc-navigation" logo-href="/"></nav>
+      <nav id="hc-nav" is="hc-navigation" logo-href="{{ '/' | prepend: site.baseurl }}"></nav>
       {% unless page.banner == false %}
       <div is="hc-banner" title="{{ page.title }}" class="mb-0" :crumbs="{'Home': '/', 'Residents': '#', 'Animals & Pets': '/l1/l2/'}"></div>
       {% endunless %}
