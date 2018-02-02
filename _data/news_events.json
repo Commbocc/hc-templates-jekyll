@@ -1,0 +1,82 @@
+[
+  {
+    "type": "News",
+    "category": "Things to know",
+    "imgSrc": "https://github.com/Commbocc/sitecore_designs/blob/gh-pages/images/news-website.jpg?raw=true",
+    "heading": "Card Title 1",
+    "link": "#",
+    "cardClass": "hc-card-secondary",
+    "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "footer": "<strong>Posted:</strong> Date"
+  },
+  {
+    "type": "Event",
+    "category": "Public Meeting",
+    "imgSrc": "https://github.com/Commbocc/sitecore_designs/blob/gh-pages/images/news-pets.jpg?raw=true",
+    "heading": "Card Title 2",
+    "link": "#",
+    "cardClass": "hc-card-info",
+    "text": "Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "footer": "<strong>Posted:</strong> Date"
+  },
+  {
+    "type": "Press Release",
+    "category": "Prescribed Burn",
+    "imgSrc": "https://github.com/Commbocc/sitecore_designs/blob/gh-pages/images/news-pets.jpg?raw=true",
+    "heading": "Press Release",
+    "link": "#",
+    "cardClass": "hc-card-success",
+    "text": "Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "footer": "<strong>Posted:</strong> Date"
+  },
+  {
+    "type": "Event",
+    "category": "Public Meeting",
+    "imgSrc": "https://github.com/Commbocc/sitecore_designs/blob/gh-pages/images/news-pets.jpg?raw=true",
+    "heading": "Card Title 3",
+    "link": "#",
+    "cardClass": "hc-card-info",
+    "text": "Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "footer": "<strong>Posted:</strong> Date"
+  },
+  {
+    "type": "News",
+    "category": "Things to know",
+    "imgSrc": "https://github.com/Commbocc/sitecore_designs/blob/gh-pages/images/news-website.jpg?raw=true",
+    "heading": "Card Title 4",
+    "link": "#",
+    "cardClass": "hc-card-secondary",
+    "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "footer": "<strong>Posted:</strong> Date"
+  },
+  {
+    "type": "News",
+    "category": "Things to know",
+    "imgSrc": "https://github.com/Commbocc/sitecore_designs/blob/gh-pages/images/news-website.jpg?raw=true",
+    "heading": "Card Title 5",
+    "link": "#",
+    "cardClass": "hc-card-secondary",
+    "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "footer": "<strong>Posted:</strong> Date"
+  },
+  {
+    "type": "News",
+    "category": "Things to know",
+    "imgSrc": "https://github.com/Commbocc/sitecore_designs/blob/gh-pages/images/news-website.jpg?raw=true",
+    "heading": "Card Title 6",
+    "link": "#",
+    "cardClass": "hc-card-secondary",
+    "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "footer": "<strong>Posted:</strong> Date"
+  },
+  {
+    "type": "News",
+    "category": "Things to know",
+    "imgSrc": "https://github.com/Commbocc/sitecore_designs/blob/gh-pages/images/news-website.jpg?raw=true",
+    "heading": "Card Title 7",
+    "link": "#",
+    "cardClass": "hc-card-secondary",
+    "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "footer": "<strong>Posted:</strong> Date"
+  }
+]

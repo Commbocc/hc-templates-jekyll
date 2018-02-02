@@ -1,0 +1,126 @@
+---
+layout: main
+---
+
+<section v-if="true" class="bg-white py-5">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-8">
+
+        <p class="lead font-italic mb-4 font-serif">
+          {{ page.summary }}
+        </p>
+
+        {{ content }}
+
+        <!-- <h3 class="font-serif font-italic h1 text-center mt-5 mb-0">Take Action</h3> -->
+
+        <div class="sticky-top bg-white">
+          <div class="text-right">
+            <a class="btn btn-link font-serif" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Filter Actions
+            </a>
+          </div>
+
+          <form class="mb-3">
+            <div class="collapse bg-light border border-secondary p-4 text-secondary" id="collapseExample">
+
+              <p class="">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+
+              <div class="form-group small">
+                <label for="exampleFormControlSelect1">Type</label>
+                <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+
+              <div class="form-group small">
+                <label for="exampleFormControlSelect1">Category</label>
+                <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </div>
+
+              <div class="form-group small">
+                <label for="exampleFormControlSelect1">Keyword</label>
+                <input type="text" class="form-control form-control-sm" id="inlineFormInputName2" placeholder="Filter">
+              </div>
+
+              <a class="btn btn-secondary btn-sm" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Apply Filters
+              </a>
+
+            </div>
+          </form>
+        </div>
+
+        <!-- actions -->
+        <div class="list-group">
+          {% for action in page.actions %}
+          <a href="{{ '/l1/l2/l3/l4a/' | prepend: site.baseurl }}" class="list-group-item list-group-item-action rounded-0 mb-4">
+
+            <div class="row align-items-center">
+              <div class="col-3 col-md-2 col-xl-1">
+                <div class="d-flex flex-column text-primary py-3">
+                  <span class="fa fa-fw {{ action.icon }} fa-2x mx-auto"></span>
+                  <small class="mx-auto">
+                    {{ action.type }}
+                  </small>
+                </div>
+              </div>
+              <div class="col-9 col-md-10 col-xl-11">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1 font-serif font-weight-bold">{{ action.title }}</h5>
+                  <small class="text-muted">{{ action.category }}</small>
+                </div>
+                <div class="">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+              </div>
+            </div>
+
+          </a>
+          {% endfor %}
+        </div>
+
+      </div>
+      <div class="col-lg-4">
+
+        <div class="sticky">
+
+          <!-- learn more -->
+          <h4 class="text-muted font-serif">More Information</h4>
+          <ul v-if="true" class="nav flex-column small">
+            {% for lm in page.learn_mores %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ '/l1/l2/l3/l4/' | prepend: site.baseurl }}">
+                {{ lm }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+
+          <div v-if="false">
+            {% include card-news-event.html %}
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+{% include related-news-events.html %}

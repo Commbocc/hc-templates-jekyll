@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>
+    HC Base Templates
+  </title>
+
+  <link rel="stylesheet" href="https://commbocc.github.io/html-wrapper/static/css/app.css">
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+</head>
+<body>
+  <noscript>
+    <center>
+      <strong>This site is best viewed with Javascript Enabled.</strong>
+      <br>
+      <em><a href="http://www.enable-javascript.com/" target="_blank">How to enable JavaScript in your browser.</a></em>
+    </center>
+    <hr>
+  </noscript>
+
+  <main id="hc-main">
+
+    <header>
+      <nav id="hc-nav" is="hc-navigation" logo-href="/"></nav>
+      {% unless page.banner == false %}
+      <div is="hc-banner" title="{{ page.title }}" class="mb-0" :crumbs="{'Home': '/', 'Residents': '#', 'Animals & Pets': '/l1/l2/'}"></div>
+      {% endunless %}
+    </header>
+
+    {{ content }}
+
+    <footer id="hc-footer" is="hc-footer"></footer>
+
+  </main>
+
+  <script type="text/javascript" src="https://commbocc.github.io/html-wrapper/static/js/manifest.js"></script>
+  <script type="text/javascript" src="https://commbocc.github.io/html-wrapper/static/js/vendor.js"></script>
+  <script type="text/javascript" src="https://commbocc.github.io/html-wrapper/static/js/app.js"></script>
+  <!-- <script type="text/javascript" src="http://10.99.112.87:8080/app.js"></script> -->
+</body>
+</html>

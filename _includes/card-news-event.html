@@ -1,0 +1,23 @@
+<div class="card hc-card {{ card.cardClass }}">
+  <div class="card-header">
+    <a href="{{ card.link }}">
+      <h6 class="hc-card-category">
+        <strong class="">
+          {{ card.type }}
+        </strong>
+        <small class="">
+          {{ card.category }}
+        </small>
+      </h6>
+      <img class="img-fluid" src="{{ card.imgSrc }}" alt="{{ card.heading }}">
+    </a>
+  </div>
+  <div class="card-body">
+    <h5 class="card-title text-primary font-weight-bold">{{ card.heading }}</h5>
+    <p class="card-text">{{ card.text }}</p>
+    <a href="{{ card.link }}" class="btn btn-sm btn-outline-primary btn-block">Continue Reading</a>
+  </div>
+  <div class="card-footer bg-white border-0 small text-muted py-1">
+    {{ card.footer }}
+  </div>
+</div>

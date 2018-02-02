@@ -1,0 +1,71 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: main
+banner: false
+title: Hillsborough County, Florida
+---
+
+<section class="jumbotron jumbotron-fluid jumbotron-bg-cover jumbotron-shadow text-white mb-0">
+  <div class="container text-center py-5">
+
+    <h1 class="font-weight-bold display-4">
+      {{ page.title }}
+    </h1>
+
+    <span class="h3 font-italic font-serif">
+      Established 1834
+    </span>
+
+  </div>
+</section>
+
+<section class="bg-light py-5">
+  <div class="container">
+
+    <div class="row justify-content-center text-sm-center">
+
+      {% for icon in site.data.home_icons %}
+      {% include home-icon.html icon = icon %}
+      {% endfor %}
+
+    </div>
+
+  </div>
+</section>
+
+<section class="bg-white py-5">
+  <div class="container">
+
+    <h2 class="text-center text-primary font-weight-bold font-serif">
+      Featured Links
+    </h2>
+
+    <hr>
+
+    {% include l2-buttons.html %}
+
+  </div>
+</section>
+
+<section class="row no-gutters align-items-stretch">
+  <a href="#" class="col-sm-6 text-sm-right list-group-item-action text-white p-5 bg-success">
+    <h3 class="font-serif">Something</h3>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </a>
+  <a href="#" class="col-sm-6 list-group-item-action text-white p-5 bg-warning">
+    <h3 class="font-serif">Something</h3>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </a>
+  <a href="#" class="col-sm-6 text-sm-right list-group-item-action text-white p-5 bg-info">
+    <h3 class="font-serif">Something</h3>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </a>
+  <a href="#" class="col-sm-6 list-group-item-action text-white p-5 bg-danger">
+    <h3 class="font-serif">Something</h3>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </a>
+</section>
+
+{% include related-news-events.html heading='Featured News &amp; Events' %}

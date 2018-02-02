@@ -1,0 +1,63 @@
+<div id="accordion">
+  <div class="card mb-3">
+    <button id="headingOne" class="btn btn-lg btn-info rounded-0 font-weight-bold" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      Take Action
+    </button>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="accordion">
+      <div class="card-body">
+
+        <h5 class="text-primary">
+          <span class="fa fa-fw fa-bar-chart"></span>
+          Apply
+        </h5>
+
+        <!-- <h6>Category</h6> -->
+        <ul class="row no-gutters">
+          <li v-for="n in 10" class="col-sm-6 col-md-4 col-lg-6 col-xl-4 pr-4 mb-2">
+            <a href="{{ '/l1/l2/l3/l4a/' }}" class="text-secondary">
+              Spay & Neuter Voucher Application
+              <span v-if="n == 2">2</span>
+            </a>
+          </li>
+        </ul>
+
+        <h5 class="text-primary">
+          <span class="fa fa-fw fa-bar-chart"></span>
+          Apply
+        </h5>
+
+        <!-- <h6>Category</h6> -->
+        <ul class="row no-gutters">
+          <li v-for="n in 10" class="col-sm-6 col-md-4 col-lg-6 col-xl-4 pr-4 mb-2">
+            <a href="{{ '/l1/l2/l3/l4a/' }}" class="text-secondary">
+              Spay & Neuter Voucher Application
+              <span v-if="n == 2">2</span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3">
+    <button id="headingTwo" class="btn btn-lg btn-info rounded-0 font-weight-bold" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+      Learn More
+    </button>
+    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="accordion">
+      <div class="card-body">
+
+        <div class="row">
+          <div v-for="n in 8" class="col-sm-6 col-md-4 align-self-stretch mb-3">
+            <a href="{{ '/l1/l2/l3/l4/' | prepend: site.baseurl }}" class="btn btn-outline-primary btn-block btn-wrap h-100 d-flex">
+              <small class="m-auto font-weight-bold">
+                Learn More Button
+                <span v-if="n === 5">Lorem Ipsum Dolar Sit</span>
+              </small>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
