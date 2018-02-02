@@ -7,6 +7,8 @@ permalink: /toc/
 title: Table of Contents
 ---
 
+* [Home]({{ '/' | prepend: site.baseurl }})
+* [Newsroom]({{ '/newsroom/' | prepend: site.baseurl }})
 * Level 1
 * [Level 2]({{ '/l1/l2/' | prepend: site.baseurl }})
 * [Level 3]({{ '/l1/l2/l3/' | prepend: site.baseurl }})
