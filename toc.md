@@ -15,3 +15,4 @@ title: Table of Contents
 * [Level 4]({{ '/l1/l2/l3/l4/' | prepend: site.baseurl }})
 * [Level 4 Action]({{ '/l1/l2/l3/l4a/' | prepend: site.baseurl }})
 * [Department]({{ '/departments/cdm/' | prepend: site.baseurl }})
+* [Leadership]({{ '/leadership/' | prepend: site.baseurl }})
