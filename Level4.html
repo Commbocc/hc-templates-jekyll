@@ -94,40 +94,44 @@ permalink: /l1/l2/l3/l4/
 
         <hr class="d-md-none">
 
-        <!-- department(s) info -->
-        <div class="mb-3">
-          {% include card-button-icon.html text='Pet Resource Center' icon='fa-paw' %}
+        <div class="sticky">
+
+
+          <!-- department(s) info -->
+          <div class="mb-3">
+            {% include card-button-icon.html text='Pet Resource Center' icon='fa-paw' %}
+          </div>
+
+          <!-- related actions -->
+          <ul class="nav flex-column small mb-4">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ '/l1/l2/l3/l4a/' | prepend: site.baseurl }}">Spay & Neuter Voucher Application</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ '/l1/l2/l3/l4a/' | prepend: site.baseurl }}">Related Action</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ '/l1/l2/l3/l4a/' | prepend: site.baseurl }}">Related Action</a>
+            </li>
+          </ul>
+
+          <!-- tags -->
+          <ul class="list-inline mb-4">
+            <li class="badge badge-info text-white">tag</li>
+            <li class="badge badge-info text-white">word</li>
+            <li class="badge badge-info text-white">tag</li>
+            <li class="badge badge-info text-white">word</li>
+          </ul>
+
+          <!-- last modified -->
+          <p class="text-muted small text-right">
+            <strong>
+              Last modified:
+            </strong>
+            Date
+          </p>
+
         </div>
-
-        <!-- related actions -->
-        <ul class="nav flex-column small mb-4">
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/l1/l2/l3/l4a/' | prepend: site.baseurl }}">Spay & Neuter Voucher Application</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/l1/l2/l3/l4a/' | prepend: site.baseurl }}">Related Action</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/l1/l2/l3/l4a/' | prepend: site.baseurl }}">Related Action</a>
-          </li>
-        </ul>
-
-        <!-- tags -->
-        <ul class="list-inline mb-4">
-          <li class="badge badge-info text-white">tag</li>
-          <li class="badge badge-info text-white">word</li>
-          <li class="badge badge-info text-white">tag</li>
-          <li class="badge badge-info text-white">word</li>
-        </ul>
-
-        <!-- last modified -->
-        <p class="text-muted small text-right">
-          <strong>
-            Last modified:
-          </strong>
-          Date
-        </p>
-
       </div>
 
     </div>
