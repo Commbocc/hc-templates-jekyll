@@ -7,7 +7,7 @@ banner: false
 title: Hillsborough County, Florida
 ---
 
-<section class="jumbotron jumbotron-fluid jumbotron-bg-cover jumbotron-shadow text-white mb-0">
+<section id="homeJumbo" class="jumbotron jumbotron-fluid jumbotron-bg-cover jumbotron-shadow text-white mb-0">
   <div class="container text-center py-5">
 
     <h1 class="font-weight-bold display-4">
@@ -49,23 +49,6 @@ title: Hillsborough County, Florida
   </div>
 </section>
 
-<section class="row no-gutters align-items-stretch">
-  <a href="#" class="col-sm-6 text-sm-right list-group-item-action text-white p-5 bg-success">
-    <h3 class="font-serif">Something</h3>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  </a>
-  <a href="#" class="col-sm-6 list-group-item-action text-white p-5 bg-warning">
-    <h3 class="font-serif">Something</h3>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  </a>
-  <a href="#" class="col-sm-6 text-sm-right list-group-item-action text-white p-5 bg-info">
-    <h3 class="font-serif">Something</h3>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  </a>
-  <a href="#" class="col-sm-6 list-group-item-action text-white p-5 bg-danger">
-    <h3 class="font-serif">Something</h3>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  </a>
-</section>
+{% include home-gradient-cards.html %}
 
 {% include related-news-events.html heading='Featured News &amp; Events' %}

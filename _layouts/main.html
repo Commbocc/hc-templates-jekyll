@@ -9,6 +9,37 @@
 
   <link rel="stylesheet" href="https://commbocc.github.io/html-wrapper/static/css/app.css">
   <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+  <!-- <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"> -->
+
+  <noscript>
+    <link rel="stylesheet" href="https://commbocc.github.io/html-wrapper/static/css/noscript.css">
+  </noscript>
+
+  <style>
+  #homeJumbo {
+    background-size: cover !important;
+    background-position: center !important;
+    background: linear-gradient(135deg, rgba(255,111,91, 0.8), rgba(5,65,115, 0.8)), url("{{ '/assets/images/Tampa-Downtown-Skyline.jpg' | prepend: site.baseurl }}");
+  }
+
+  @media (min-width: 576px) {
+    .hc-gradient-card:nth-child(odd) {
+      text-align: right;
+    }
+  }
+  .hc-gradient-card:nth-of-type(1) {
+    background: linear-gradient(135deg, rgba(122, 191, 215, 0.75), rgba(5,65,115, 0.75)), url("http://hcflgov.net/library/hillsborough/super-flush_hero3.jpg");
+  }
+  .hc-gradient-card:nth-of-type(2) {
+    background: linear-gradient(135deg, rgba(240, 173, 78, 0.75), rgba(5,65,115, 0.75)), url("http://hcflgov.net/library/hillsborough/controlled-burn_nr.jpg?h=475&w=845&la=en&hash=330BF6350F4D8523B2F196DD296428F1074C267F");
+  }
+  .hc-gradient-card:nth-of-type(3) {
+    background: linear-gradient(135deg, rgba(241, 70, 60, 0.75), rgba(5,65,115, 0.75)), url("http://hcflgov.net/library/hillsborough/street-hockey_nr.jpg");
+  }
+  .hc-gradient-card:nth-of-type(4) {
+    background: linear-gradient(135deg, rgba(155, 214, 60, 0.75), rgba(5,65,115, 0.75)), url("http://hcflgov.net/library/hillsborough/hc_completed-mural-tampa-bay-history-center_nr2.jpg?h=475&w=845&la=en&hash=9DD06E18F9C08ABDE691553325DD7CF24B430C0B");
+  }
+  </style>
 </head>
 <body>
   <noscript>
@@ -38,6 +69,6 @@
   <script type="text/javascript" src="https://commbocc.github.io/html-wrapper/static/js/manifest.js"></script>
   <script type="text/javascript" src="https://commbocc.github.io/html-wrapper/static/js/vendor.js"></script>
   <script type="text/javascript" src="https://commbocc.github.io/html-wrapper/static/js/app.js"></script>
-  <!-- <script type="text/javascript" src="http://10.99.112.87:8080/app.js"></script> -->
+  <!-- <script type="text/javascript" src="http://localhost:8080/app.js"></script> -->
 </body>
 </html>
