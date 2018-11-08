@@ -2,31 +2,31 @@
   {
     "heading": "At Your Service",
     "link": "#",
-    "iconClass": "fa-handshake-o",
+    "iconClass": "far fa-handshake",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
   },
   {
     "heading": "Newsroom",
     "link": "/newsroom",
-    "iconClass": "fa-newspaper-o",
+    "iconClass": "far fa-newspaper",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
   },
   {
     "heading": "Events",
     "link": "#",
-    "iconClass": "fa-calendar",
+    "iconClass": "far fa-calendar-alt",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
   },
   {
     "heading": "County Locations",
     "link": "#",
-    "iconClass": "fa-building-o",
+    "iconClass": "far fa-building",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
   },
   {
     "heading": "Jobs",
     "link": "#",
-    "iconClass": "fa-briefcase",
+    "iconClass": "fas fa-briefcase",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
   }
 ]
